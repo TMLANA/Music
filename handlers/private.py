@@ -11,7 +11,7 @@ async def start(_, message: Message):
         f"""**مرحبا انا **{bn}** 🎵
 
 بامكاني تشغيل الاغاني في المكالمات الجماعيه 
-قم برفعي  مشرف في قناتك مع البوت المساعد [MusicTelethon](https://t.me/MusicTelethon).
+قم برفعي  مشرف في قناتك مع البوت المساعد [MusicLeoThon](https://t.me/MusicLeoThon).
 
 قم باضافتي الى مجموعتك لتبدأ الحفله 🎶**
         """,
@@ -19,17 +19,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 لطلب المساعده 🛠", url="https://t.me/klanr")
+                        "🛠 لطلب المساعده 🛠", url="https://t.me/QHR_1")
                   ],[
                     InlineKeyboardButton(
-                        "💬 قناة للشروحات", url="https://t.me/yzzzy"
-                    ),
-                    InlineKeyboardButton(
-                        "🔊 قناتي", url="https://t.me/M4_STORY"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕  اضفني الى مجموعتك ➕", url="https://t.me/MusicTelethonbot?startgroup=true"
+                        "➕  اضفني الى مجموعتك ➕", url="https://t.me/MusicLeoThonbot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +36,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 قناتي الخاصه", url="https://t.me/rxxrx")
+                        "🔊 حسابي الخاص", url="https://t.me/QHR_1")
                 ]
             ]
         )
@@ -55,7 +48,7 @@ async def gstart(_, message: Message):
       await message.reply_text("""** يمتاز هذا البوت بالبحث والتحميل ✨
 اكتب معرف البوت مع اسم الاغنيه للبحث 🔊
 مثال : 
-@MusicTelethonbot كاظم الساهر
+@MusicLeoThonbot كاظم الساهر
 تستطيع تحميل اي اغنيه ايضا 💞
 بالاوامر التاليه :
 - /ytp رابط الاغنيه من اليوتيوب
@@ -72,10 +65,10 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 قناتي الخاصه", url="https://t.me/rxxrx")
+                        "🔊 حسابي الخاص", url="https://t.me/QHR_1")
                 ],[
                     InlineKeyboardButton(
-                        "🎶 الحساب المساعد", url="https://t.me/MusicTelethon"
+                        "🎶 الحساب المساعد", url="https://t.me/MusicLeoThon"
                     )
                 ]
             ]
